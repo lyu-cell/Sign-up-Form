@@ -1,0 +1,74 @@
+.first-name-container,
+.last-name-container,
+.email-container,
+.number-container,
+.password,
+.confirm-password {
+    display: flex;
+    flex-direction: column;
+}
+
+.name, .contacts,
+.passwords {
+    display: flex;
+    gap: 20px;
+}
+
+.form {
+    height: 200px;
+    width: 570px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 10px;
+    
+}
+
+.form-container {
+    box-sizing: border-box;
+    width: 548px;
+    height: 80vh;
+    background-color: white;
+    margin-right: 50px;
+    padding: 30px;
+    padding-top: 90px;
+    border: 2px solid green;
+    
+}
+
+.sidebar {
+    box-sizing: border-box;
+    width: 600px;
+    height: 98vh;
+    margin-left: 60px;
+    background-color: white;
+    background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: 337px 100%;
+
+    
+}
+
+.form-page {
+    display: flex;
+}
+body {
+    background-color: black;
+}
+
+.para-2 {
+    margin-bottom: 50px;
+}
+
+.para-1, .para-2,
+.para-3 {
+    font-weight: bold;
+}
+
+input {
+    border: 1px solid grey;
+}
+
+label {
+    font-weight: lighter ;
+    font-size: 15px;
+}
