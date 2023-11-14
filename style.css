@@ -1,3 +1,8 @@
+body {
+    padding: 0px;
+    border: 0px;
+    margin: 0;
+}
 .first-name-container,
 .last-name-container,
 .email-container,
@@ -15,7 +20,7 @@
 }
 
 .form {
-    height: 200px;
+    height: 190px;
     width: 570px;
     display: flex;
     flex-direction: column;
@@ -27,25 +32,24 @@
 .form-container {
     box-sizing: border-box;
     width: 548px;
-    height: 80vh;
+    height: 99vh;
     background-color: white;
     margin-right: 50px;
     padding: 30px;
     padding-top: 90px;
-    border: 2px solid green;
     
 }
 
 .sidebar {
+    display: flex;
     box-sizing: border-box;
     width: 600px;
     height: 98vh;
-    margin-left: 60px;
+    margin-left: 50px;
     background-color: white;
     background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
-    background-size: 337px 100%;
-
-    
+    background-size: 100% 100%;
+    justify-content: center;
 }
 
 .form-page {
@@ -71,4 +75,52 @@ input {
 label {
     font-weight: lighter ;
     font-size: 15px;
+}
+
+button {
+    margin-top: 20px;
+    width: 155px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #596D48;
+    color: white;
+}
+
+.log-in {
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.logo-backgound {
+    position: absolute;
+    width: 356px;
+    height: 100px;
+    background-color: black;
+    margin-top: 132px;
+    opacity: .4;
+    display: flex;
+}
+
+.logo-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    font-size: 70px;
+    font-family: "Norse-Bold";
+    color: white;
+    margin-top: 78px;
+}
+
+@font-face {
+    font-family: "Norse-Bold";
+    src: url(Norse-Bold.otf);
+}
+
+.credits {
+    color: white;
+    font-size: 12px;
+    position: relative;
+    align-self: end;
+    width: 170px;
+    border: 2px solid ;
 }
