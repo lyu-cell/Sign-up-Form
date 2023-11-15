@@ -28,21 +28,21 @@
                 <div class="para-2">You know you want to.</div>
                 <div class="para-3">Let's do this!</div>
             </div>
-            <form action="" class="form">
+            <form action="https://httpbin.org/post" class="form" method="post">
                 <div class="name">
                     <div class="first-name-container">
                         <label for="first_name">First Name</label>
-                        <input type="text" id="first_name" name="first_name" required>
+                        <input type="text" id="first_name" name="first_name" placeholder="John" required>
                     </div>
                     <div class="last-name-container">
                         <label for="last_name">Last Name</label>
-                        <input type="text" id="last_name" name="last_name" required>
+                        <input type="text" id="last_name" name="last_name" placeholder="Robinson" required>
                     </div>
                 </div>
                 <div class="contacts">
                     <div class="email-container">
                         <label for="email">Email</label>
-                        <input type="email" id="email" name="user_email">
+                        <input type="email" id="email" name="user_email" placeholder="shedy@gmail.com">
                     </div>
                     <div class="number-container">
                         <label for="phone_number">Phone Number</label>
@@ -52,14 +52,14 @@
                 <div class="passwords">
                     <div class="password">
                         <label for="user_password">Password</label>
-                        <input type="password" id="user_password">
+                        <input type="password" id="user_password" name="password" min="8" max="10" required>
                     </div>
                     <div class="confirm-password">
                         <label for="password_confirmation">Confirm Password</label>
-                        <input type="password" id="password_confirmation">
+                        <input type="password" id="password_confirmation" min="8" max="15" rq>
                     </div>
                 </div>
-                <button>Create Account</button>
+                <button type="button" class="subButton">Create Account</button>
             </form>
             <div class="log-in">Already have an Account? Log in</div>
         </div>

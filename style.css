@@ -26,7 +26,6 @@ body {
     flex-direction: column;
     margin-top: 10px;
     gap: 10px;
-    
 }
 
 .form-container {
@@ -69,7 +68,7 @@ body {
 }
 
 input {
-    border: 1px solid grey;
+    border: 1px solid #E5E7EB;
 }
 
 label {
@@ -122,5 +121,27 @@ button {
     position: relative;
     align-self: end;
     width: 170px;
-    border: 2px solid ;
+}
+input {
+    outline: none;
+    border: 1px solid #E5E7EB;
+    height: 15px;
+    width: 170px;
+    -webkit-transition: 0.5s;
+    transition: 0.4s;
+}
+
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+    border: 1px solid rgb(92, 92, 255);
+}
+
+input:focus:invalid {
+    border: 1px solid red;
+}
+
+input:focus:valid {
+    border: 1px solid green;
 }
